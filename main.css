@@ -1,0 +1,55 @@
+*, html, body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:16px;
+}
+#container{
+	font-family: 'OpenSans-Regular';
+}
+.mainsection{
+	padding-top:20px;
+}
+.width-3{
+	width:29%;
+	border-right:1px solid gray;
+}
+.width-7{
+	width:69%;
+	vertical-align: top;
+}
+.inlining{
+	display: inline-block;
+}
+.list{
+	display:block;
+	list-style:none;
+	height:100vh;
+	max-height:calc(100vh - 20px);
+	overflow-y: auto;
+}
+.listLi{
+	display:block;
+}
+.listLi > button:hover {
+	background-color:#04AA6D;;
+	color:#fff;
+	cursor: pointer;
+}
+.listLi > button {
+	background:transparent;
+	border:0;
+	display:block;
+	width:100%;
+	text-align:left;
+	padding: 10px;
+}
+
+input{
+	display: block;
+    width: 70%;
+    border: 0;
+    height: 1.5rem;
+    font-size:1.3rem;
+    font-family: 'OpenSans-Regular';
+}
